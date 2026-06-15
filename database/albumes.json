@@ -1,0 +1,68 @@
+[
+  {
+    "titulo": "Thriller",
+    "artista": "Michael Jackson",
+    "genero": "Pop",
+    "anio": 1982,
+    "sello": "Epic",
+    "pistas": 9,
+    "imagen": "thriller.avif",
+    "resumen": "El album mas vendido de la historia.",
+    "descripcion": "Album de Michael Jackson que redefinio la musica pop de los anos 80."
+  },
+  {
+    "titulo": "Back in Black",
+    "artista": "AC/DC",
+    "genero": "Rock",
+    "anio": 1980,
+    "sello": "Atlantic",
+    "pistas": 10,
+    "imagen": "back-in-black.avif",
+    "resumen": "Uno de los albumes de rock mas vendidos.",
+    "descripcion": "Disco de AC/DC con riffs directos y sonido potente que marco el hard rock."
+  },
+  {
+    "titulo": "The Dark Side of the Moon",
+    "artista": "Pink Floyd",
+    "genero": "Rock",
+    "anio": 1973,
+    "sello": "Harvest",
+    "pistas": 10,
+    "imagen": "the-dark-side-of-the-moon.avif",
+    "resumen": "Clasico del rock progresivo.",
+    "descripcion": "Album conceptual de Pink Floyd sobre el tiempo, la presion y la condicion humana."
+  },
+  {
+    "titulo": "Rumours",
+    "artista": "Fleetwood Mac",
+    "genero": "Rock",
+    "anio": 1977,
+    "sello": "Warner Bros.",
+    "pistas": 11,
+    "imagen": "rumours.avif",
+    "resumen": "Album exitoso con armonias y canciones memorables.",
+    "descripcion": "Disco de Fleetwood Mac creado en medio de tensiones personales y gran creatividad."
+  },
+  {
+    "titulo": "Abbey Road",
+    "artista": "The Beatles",
+    "genero": "Rock",
+    "anio": 1969,
+    "sello": "Apple",
+    "pistas": 17,
+    "imagen": "abbey-road.avif",
+    "resumen": "Una de las obras mas recordadas de The Beatles.",
+    "descripcion": "Album con produccion cuidada y un medley final considerado entre lo mejor de la banda."
+  },
+  {
+    "titulo": "Nevermind",
+    "artista": "Nirvana",
+    "genero": "Grunge",
+    "anio": 1991,
+    "sello": "DGC",
+    "pistas": 12,
+    "imagen": "nevermind.avif",
+    "resumen": "Disco que llevo el grunge al publico masivo.",
+    "descripcion": "Album de Nirvana que cambio el sonido del rock alternativo a inicios de los anos 90."
+  }
+]
