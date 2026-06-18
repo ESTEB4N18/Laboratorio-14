@@ -30,6 +30,11 @@ Modo desarrollo:
 ```bash
 npm run dev
 ```
+## Ejecuta los test
+
+```bash
+npm test
+```
 
 
 Por defecto la API queda disponible en:
