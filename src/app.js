@@ -145,6 +145,10 @@ app.get('/genero/:genero', async (req, res, next) => {
 
 app.get('/search/:text', async (req, res, next) => {
   try {
+    if (req.params.text.length < 3) {
+      return res.status(400).json({ error: 'El texto debe tener al menos 3 caracteres' });
+    }
+
     const texto = `%${req.params.text.toLowerCase()}%`;
 
     const albumes = await consultar(
@@ -301,6 +305,10 @@ app.use((error, req, res, next) => {
   res.status(500).json({ error: 'Error interno del servidor' });
 });
 
-app.listen(PORT, HOST, () => {
-  console.log(`Servidor escuchando en http://${HOST}:${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, HOST, () => {
+    console.log(`Servidor escuchando en http://${HOST}:${PORT}`);
+  });
+}
+
+module.exports = app;

@@ -5,7 +5,8 @@
   "main": "src/app.js",
   "scripts": {
     "dev": "nodemon src/app.js",
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "test": "vitest run"
   },
   "dependencies": {
     "express": "^5.1.0",
@@ -13,6 +14,8 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.9"
   }
 }
